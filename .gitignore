@@ -1,0 +1,6 @@
+.env
+outputs/
+.cursor/
+node_modules/
+dist/
+tsconfig.tsbuildinfo

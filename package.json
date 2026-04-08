@@ -1,0 +1,39 @@
+{
+  "name": "wan-apiclient",
+  "version": "2.0.0",
+  "description": "Alibaba Cloud Model Studio Wan 2.7 API Client — Image, Video, Video Editing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "wan": "dist/cli.js",
+    "wan-mcp": "dist/mcp-server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "wan": "node dist/cli.js",
+    "mcp": "node dist/mcp-server.js"
+  },
+  "keywords": [
+    "alibaba-cloud",
+    "model-studio",
+    "wan2.7",
+    "image-generation",
+    "video-generation",
+    "ai",
+    "api-client",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}
