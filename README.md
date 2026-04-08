@@ -83,7 +83,7 @@ Add to your MCP client config:
   "mcpServers": {
     "wan-apiclient": {
       "command": "node",
-      "args": ["E:\\Alibaba_WanAI\\Wan2.7APIClient\\dist\\mcp-server.js"],
+      "args": ["<Your_Folder_Path>\\Wan2.7APIClient\\dist\\mcp-server.js"],
       "env": {
         "ALICLOUD_API_KEY": "your-api-key-here"
       }
